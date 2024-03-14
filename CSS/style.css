@@ -76,6 +76,35 @@ a{
     
 }
 
+.caption{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border{
+    background-color: #523961;
+    color: #fff;
+    padding: 15px;
+    font-size: large;
+    letter-spacing: 10px;
+}
+.caption:hover{
+    background-color: #fff;
+    border-color: #523961;
+    color: #523961;
+    font-weight: bold;
+}
+
+span.border:hover{
+    background-color: #fff;
+    border-color: #523961;
+    color: #523961;
+    font-weight: bold;
+}
+
 .info-nav{
     width: 100%;
     display: flex;
