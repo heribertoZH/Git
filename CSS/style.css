@@ -76,34 +76,39 @@ a{
     
 }
 
-.caption{
-    position: absolute;
-    left: 0;
-    top: 35%;
-    width: 100%;
-    text-align: center;
+.info-principal{
+    height: 50vh;
+    opacity: 0.8;
+    display: block;
+    overflow: hidden;
 }
 
-.caption span.border{
+.caption{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.caption span{
     background-color: #523961;
     color: #fff;
     padding: 15px;
     font-size: large;
     letter-spacing: 10px;
 }
-.caption:hover{
-    background-color: #fff;
-    border-color: #523961;
-    color: #523961;
-    font-weight: bold;
+
+ .caption:hover{
+    transform: scale(1.1,1.1);
 }
 
-span.border:hover{
+.caption:hover span.border{
     background-color: #fff;
     border-color: #523961;
     color: #523961;
     font-weight: bold;
-}
+} 
 
 .info-nav{
     width: 100%;
@@ -158,10 +163,7 @@ span.border:hover{
     opacity: 1;
 }
 
-.info-principal{
-    height: 50vh;
-    opacity: 0.1;
-}
+
 
 
 .info{
@@ -177,12 +179,9 @@ span.border:hover{
 
 .container-left{
     width: 100%;
-    /* padding: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .container-left h1{
