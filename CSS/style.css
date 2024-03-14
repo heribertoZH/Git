@@ -21,7 +21,7 @@ a{
 }
 
 .image-landing{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -135,3 +135,46 @@ a{
 }
 
 
+.info{
+    /* position: relative; */
+    margin: 25px 35px;
+}
+
+.div-grid{
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 20px;
+}
+
+.container-left{
+    width: 100%;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-left-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #000;
+}
+
+.container-left-info img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-left-info h2{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-size: 1em;
+}
+
+.container-left-info p{
+    margin-top: 3px;
+    font-size: 0.8em;
+}
