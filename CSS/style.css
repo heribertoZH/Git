@@ -153,6 +153,11 @@ a{
     flex-direction: column;
     align-items: center;
 
+
+}
+
+.container-left h1{
+    font-size: 1.2em;
 }
 
 .container-left-info {
@@ -160,7 +165,21 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background: rgba(194, 189, 189, 0.384);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+    word-break: break-word;
+    line-break: normal;
+    hyphens: auto;
+    overflow-wrap: break-word;
+}
+
+
+.container-left-info:hover{
+    transform: scale(1.05,1.05);
 }
 
 .container-left-info img{
@@ -171,10 +190,14 @@ a{
 .container-left-info h2{
     margin-top: 2px;
     margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 1em;
 }
 
 .container-left-info p{
     margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 0.8em;
 }
